@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#h{
+    width: 100%;
+    height: 100vh;
+    background-image: url(items2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.login{ 
+    width: 40%;
+    height: 73%;
+    background: white;
+    backdrop-filter: blur(10px);
+    border: 2px solid lightgrey;
+    box-shadow: 3px 3px 3px 3px #888888;
+    position: absolute;
+    bottom: 20%;
+    left:30%;
+}
+.login i {
+    position: absolute;
+}
+.icon {
+    padding-left: 13%;
+    padding-top:17%;
+    color:grey;
+   
+    
+}
+.fa-key{
+    padding-left: 13%;
+    padding-top: 10%;
+    color:grey;
+}
+.fa-eye{
+    padding-left: 85%;
+    padding-top: 10%;
+    color:grey;
+}
+.fa-facebook-square{
+    padding-left: 15%;
+    padding-top: 4.6%;
+    color:white;
+    cursor: pointer;
+}
+.fa-google{
+    padding-left: 15%;
+    padding-top: 4%;
+    color:white;
+    cursor: pointer;
+}
+  
+.input-field {
+    width: 76%;
+    padding-left: 35px;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+    border: 2px solid lightgrey;
+    margin-left: 11%;
+    margin-top: 15%;
+}
+#key{
+    margin-top: 8%;
+}
+.remember{
+    width: 26%;
+    margin-top: 7%;
+    margin-left: 0.2%;
+    
+}
+.remember1{
+    margin-left: -10%;
+    margin-top: 52%;
+    color:grey;
+}
+.button {
+    color: black;
+    padding: 13px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-left:150px;
+    cursor: pointer;
+    background-color: #0362fc;
+    border-radius: 10px;
+    border: 2px solid white;
+    
+  }
+  button a{
+    text-decoration: none;
+    color:white;
+  }
+  .register{
+    margin-left: 12%;
+    font-size: 85%;
+    color:blue;
+    text-decoration: none;
+    cursor:pointer;
+    transition-duration: 0.4s;
+}
+.register:hover{
+    color: rgb(227, 98, 223);
+}
+
+.key{
+    transform: translateY(35px);
+}
+
+.eye{
+    transform: translateY(35px);
+}
+
+.forgot{
+    margin-left: 40%;
+    font-size: 76%;
+    color:grey;
+    text-decoration: none;
+    cursor:pointer;
+    transition-duration: 0.4s;
+}
+.forgot:hover{
+    color: blue;
+}
+hr { 
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: 2.5em;
+    margin-right: 1.5em;
+    border-style: inset;
+    border-width: 1px;
+  }
+  #fb{
+      background-color:#153d7d;
+        margin-top:1.8%;
+        text-align: center;
+        color:white;
+        cursor:pointer;
+        height: 8%;
+        width:83%;
+  }
+  #gb{
+    background-color:#d11b1e;
+    margin-top:2%;
+    text-align: center;
+        color:white;
+        cursor:pointer;
+        height: 8%;
+        width:83%;
+}

@@ -1,0 +1,248 @@
+* {
+    box-sizing:border-box;
+    
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ececec;
+}
+  
+  .navbar{
+    background-color: #38393b;
+    width: 1366px;
+    height: 120px;
+    position: fixed;
+    z-index:1;
+  }
+  .logo{
+    background-color: #38393b;
+    width: 140px;
+    height: 100px;
+    color:white;
+    text-align:center;
+    padding-top: 30px;
+  }
+  .pause{
+    background-color: #38393b;
+    width: 1320px;
+    height: 70px;
+    margin-left:140px;
+    top: 45px;
+    position: fixed;
+  }
+  .dropbtn{
+    background-color: #38393b;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-left:1px;
+  }
+  .dropbtn1{
+    background-color: #38393b;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-left:20px;
+    margin-top:30px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0px;
+    background-color: #f9f9f9;
+    padding-top:10px;
+    min-width: 800px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown{
+    margin-top: 10px;
+    position: relative;
+    display: inline;
+  
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px  30px;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(222, 219, 219);
+     color:grey;
+}
+  
+.dropdown:hover .dropdown-content  {
+    display: block;
+    
+  }
+  .input-field {
+    width: 36%;
+    padding-left: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: grey;
+    margin-left: 5%;
+    margin-top: 0%;
+    color:white;
+}
+::placeholder {
+    color: #d9dbde;
+    opacity: 1; 
+    font-size: 15px;
+  }
+  .fa-search{
+    position: absolute;
+    top: 40px;
+    color:white;
+  }
+  .fa-heart{
+        position: absolute;
+        top: 45px;
+        right:210px;
+        color:white;
+        cursor: pointer;
+  }
+  .fa-shopping-bag{
+    position: absolute;
+        top: 43px;
+        right:170px;
+        color:white;
+        cursor: pointer;
+  }
+ .headers{
+    overflow:hidden;
+    background-color: black;
+    color: white;
+    width: 1000px;
+    margin-left:20%;
+    position: absolute;
+ }
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 40%;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 80%;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor:pointer;
+    font-size: 13px;
+  }
+  h2 a{
+    text-decoration: none;
+    color:white;
+    font-family: "Times New Roman", Times, serif;
+    
+  }
+ .middle{
+    display: flex;
+    width: 26%;
+    height: 150%;
+    background-color: white;
+    margin-top: 250px;
+    box-shadow: 2px 2px 2px 2px #c4c1c1;
+    margin-left: 50px;
+    position: absolute;
+  }
+  .middle-right{
+    display: flex;
+    width: 65%;
+    height: 150%;
+    background-color: #ececec;
+    margin-top: 250px;
+    margin-left: 33%;
+    position: absolute;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    margin-top: 5%;
+    margin-left:2%;
+  }
+  .row{
+    width:100%;
+    height: 100%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      
+    }
+  }
+  .card:hover {
+    transform: scale(1.2);
+    background-color: rgb(179, 177, 177);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .btn {
+    border: none;
+    outline: none;
+    height:5%;
+    width: 12%;
+    margin-left:2%;
+    float: left;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  /* footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  } */
+  
+  
+   
+  
+  

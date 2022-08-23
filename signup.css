@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #403e3e;
+    
+}
+#h{
+    width: 50%;
+    height: 97vh;
+    background-color: #403e3e;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.heading{
+    text-align: center;
+    color: grey;
+    background-color: white;
+}
+.split-left {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 50%;
+    background-color: #111;
+  }
+  
+  .split-right {
+    height: 91.78%;
+    width: 21.5%;
+    position: fixed;
+    z-index: 1;
+    top: 3%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 29%;
+    background-image: url(signup.png);
+    background-color: #403e3e;
+  }
+.fa-facebook-square{
+    padding-left: 44%;
+    padding-top: 4.5%;
+    padding-right:1%;
+    cursor: pointer;
+    background-color: white;
+}
+.text-block {
+    position: absolute;
+    bottom: 19%;
+    right: 19%;
+    color: black;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.fa-google{
+    cursor: pointer;
+    background-color: white;
+}
+.fa-twitter{
+    cursor: pointer;
+    background-color: white;
+}
+.container {
+    position: absolute;
+    right: 41%;
+    margin-top:0%;
+    height: 90%;
+    width: 55%;
+    padding: 15px;
+    background-color: white;
+  }
+  .right{
+    background-color: white;
+  }
+  .heading1{
+    text-align:center;
+    color:grey;
+    margin-top: 3%;
+    background-color: white;
+  }
+  .signin{
+    cursor:pointer;
+    background-color: white;
+
+  }
+
+  input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 2px 0 10px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  input[type=checkbox]:checked {
+    background-color: #a77e2d;
+    color: black;
+  }
+  .agree{
+    color:grey;
+    margin-left: 2%;
+    margin-top: 1%;
+    background-color: white;
+  }
+  .btn {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-left: 6%;
+    border-radius: 41%;
+    font-size: 90%;
+    width: 26%;
+    opacity: 0.9;
+  }
+  hr { 
+    display: block;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+    margin-right: 1.5em;
+    border-style: inset;
+    border-width: 1px;
+  }
+  .btn:hover {
+    opacity: 1;
+  }

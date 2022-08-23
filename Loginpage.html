@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <div id="h">
+    </div>
+    <div class="login">
+        <i class="fa fa-user icon fa-m"></i>
+        <input id="user" class="input-field" type="text" placeholder="Username or Email"><br>
+        <i class='fa fa-eye fa-m eye'></i>
+        <i class="fa fa-key fa-m key"></i>
+        <input id="pass" class="input-field" type="text" placeholder="Password">
+        <input type="checkbox" class="remember" name="remember" value="remember">
+        <label for="remember" class="remember1"> Remember Me</label>
+        <button class="button" id="lgn-btn">LOGIN</button><br>
+        <a href="signup.html">
+            <label class="register"> Register now</label></a>
+        <label class="forgot"> Forgot Password ?</label>
+        <hr>
+        <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+        <button class="input-field" id="fb"><a href="https://www.facebook.com/">LOGIN WITH FACEBOOK</a></button><br>
+        <i class="fa fa-google fa-lg" aria-hidden="true"></i>
+        <button class="input-field" id="gb"><a href="https://www.google.co.in/">LOGIN WITH GOOGLE</a></button><br>
+
+    </div>
+
+    <script>
+
+        function checkentry() {
+            var a = document.getElementById("user").value;
+            var b = document.getElementById("pass").value;
+
+
+            if (a == "") {
+                alert("please enter username : ");
+                return false;
+            }
+
+            if (b == "") {
+                alert("please enter password : ");
+
+                return false;
+            }
+            else {
+                alert("You have been Successfully logged in. ")
+                window.location.href = ("homepage.html");
+                return false;
+            }
+
+        }
+
+        document.getElementById("lgn-btn").onclick = checkentry;
+
+
+    </script>
+</body>
+
+</html>
